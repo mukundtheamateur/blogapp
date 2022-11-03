@@ -7,11 +7,11 @@
         "start": "node server.js",
         "server": "nodemon server.js ",
         "client": "npm start --prefix ../client",
-        "build": "concurrently \"npm run server\" \"npm run client\""
+        "dev": "concurrently \"npm run server\" \"npm run client\""
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://google.com/"
     },
     "keywords": [],
     "author": "",
