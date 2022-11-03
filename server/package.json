@@ -1,0 +1,35 @@
+{
+    "name": "blogdemo",
+    "version": "1.0.0",
+    "description": "A Simple Blogger site built with MERN Stack",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js ",
+        "client": "npm start --prefix ../client",
+        "build": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://google.com/"
+    },
+    "homepage": "https://google.com/",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "colors": "^1.4.0",
+        "dotenv": "^16.0.0",
+        "express": "^4.18.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.3.1"
+    },
+    "devDependencies": {
+        "concurrently": "^7.1.0",
+        "nodemon": "^2.0.16"
+    }
+}
