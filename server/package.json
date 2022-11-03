@@ -1,5 +1,5 @@
 {
-    "name": "blogdemo",
+    "name": "blogapp",
     "version": "1.0.0",
     "description": "A Simple Blogger site built with MERN Stack",
     "main": "server.js",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://google.com/"
     },
     "keywords": [],
     "author": "",
